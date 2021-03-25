@@ -1,0 +1,41 @@
+.potted-cacti {
+    padding: 194px 420px 42px 105px;
+    position: relative;
+    display: flex;
+    background-color: #4A4A4A;
+    justify-content: space-between;
+    &__media {
+        margin-top: 475px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__wrapper {
+        width: 443px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__header {
+        font-size: 81px;
+        line-height: 100px;
+        font-family: 'Work Sans';
+        letter-spacing: 10px;
+        color: #FFFFFF;
+    }
+    &__descr {
+        font-family: 'Mukta Vaani';
+        font-size: 24px;
+        line-height: 35px;
+        text-align: justify;
+        color: #FFFFFF;
+    }
+    &__line {
+        margin-top: 29px;
+        border: 2px solid #FFFFFF;
+    }
+    &__flowers {
+        position: absolute;
+        transform: translateX(-120%);
+    }
+}

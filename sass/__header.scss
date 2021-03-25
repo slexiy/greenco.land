@@ -1,0 +1,39 @@
+.header {
+    height: 1060px;
+    padding: 72px 290px 10px 290px;  
+    background-color: #F4F4F4;
+    position: relative; 
+    z-index: -2;
+    &__wrapper {
+        margin-top: 140px;
+        position: relative;
+    }
+    &__label {
+        position: absolute;
+        left: 0;
+        transform: translateY(70%) translateX(8%);
+        z-index: -1;
+    }
+    &__header {
+        
+        font-weight: 700;
+        font-size: 210px;
+        line-height: 210px;
+        color: #DADADA;
+        font-family: 'Roboto';
+        letter-spacing: 30px;
+    }
+    &__subheader {
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 56px;
+        color: #7A797A;
+        font-family: 'Akronim';
+    }
+    &__plant {
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: translateX(-50%);
+    }
+}

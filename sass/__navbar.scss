@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    
+    &__menu {
+        cursor: pointer;
+        ul {
+            width: 45px;
+            display: flex;
+            flex-wrap: wrap;
+        } 
+        li {
+            background-color:#B7BBB2; 
+            margin: 5px 5px 0 0;
+            display: block;
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+        }
+        
+    }
+    &__house {
+        cursor: pointer;
+    }
+}
