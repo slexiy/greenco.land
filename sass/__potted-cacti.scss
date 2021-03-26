@@ -38,4 +38,42 @@
         position: absolute;
         transform: translateX(-120%);
     }
+    &__icon-media {
+        cursor: pointer;
+    }
+    &__arrow {
+        right: 0;
+        transform: translateX(-200%) translateY(150%);
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+        &::before {
+            transition: 0.1s;
+            content: "";
+            display: inline-block;
+            transform: rotate(-45deg) translateX(-50%) translateY(1500%);
+            height: 4px;
+            width: 50px;
+            background-color: #fff;
+        }
+        &::after {
+            content: "";
+            transition: 0.1s;
+            position: absolute;
+            display: inline-block;
+            transform: rotate(45deg) translateX(15%) translateY(1100%);
+            height: 4px;
+            width: 50px;
+            background-color: #fff;
+        }
+        &:hover {
+            &::before {
+                background-color: #a9aba7;
+            }
+            &::after {
+                background-color: #a9aba7;
+            }
+        }
+    }
 }

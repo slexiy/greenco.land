@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     &__button {
+        transition: 1s;
         height: 91px;
         width: 431px;
         font-family: 'Roboto';
@@ -10,9 +11,13 @@
         line-height: 66px;
         letter-spacing: 8px;
         color: #7A797A;
+        background-color: #fff;
         border: 3px solid #979797;
         box-sizing: border-box;
         cursor: pointer;
+        &:hover {
+            background-color: #DADADA;
+        }
     }
     &__bottom {
         margin: 110px 269px 177px 0;

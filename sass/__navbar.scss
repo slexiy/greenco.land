@@ -1,7 +1,9 @@
 .navbar {
+    padding: 72px 290px;
+    width: 100%;
+    position: absolute;
     display: flex;
     justify-content: space-between;
-    
     &__menu {
         cursor: pointer;
         ul {
@@ -10,6 +12,7 @@
             flex-wrap: wrap;
         } 
         li {
+            transition: 0.1s;
             background-color:#B7BBB2; 
             margin: 5px 5px 0 0;
             display: block;
@@ -17,7 +20,11 @@
             height: 10px;
             border-radius: 100%;
         }
-        
+        &:hover {
+            li {
+                background-color:#a9aba7; 
+            } 
+        }
     }
     &__house {
         cursor: pointer;
